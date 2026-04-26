@@ -13,7 +13,7 @@ import java.util.stream.IntStream;
 
 public class SdfInConcurrent {
 
-    public static void main(String[] args) {
+    void main(String[] args) {
         final var size = 1000;
         var localDateTimes = IntStream.range(0, size)
                 .mapToObj(_ -> LocalDateTime.of(rand(1999, 2024), rand(1, 12), rand(1, 28), rand(0, 23), rand(0, 59), rand(0, 59)))
