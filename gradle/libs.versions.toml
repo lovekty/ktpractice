@@ -1,12 +1,12 @@
 [versions]
-kotlin = "2.2.21"
+kotlin = "2.3.21"
 kotlinx-coroutines = "1.10.2"
-springboot = "4.0.3"
-springcloud = "2025.1.1"
-spring-statemachine = "4.0.1"
-slf4j = "2.0.17"
-jackson3 = "3.0.4"
-lombok = "1.18.42"
+springboot = "4.1.0"
+springcloud = "2025.1.2"
+#spring-statemachine = "4.0.1"
+slf4j = "2.0.18"
+jackson3 = "3.1.4"
+lombok = "1.18.46"
 drift = "1.24"
 flink = "1.18.0"
 storm = "2.6.1"
@@ -42,7 +42,7 @@ springboot-jpa-test = { module = "org.springframework.boot:spring-boot-starter-d
 
 springcloud-bom = { module = "org.springframework.cloud:spring-cloud-dependencies", version.ref = "springcloud" }
 
-spring-statemachine-starter = { module = "org.springframework.statemachine:spring-statemachine-starter", version.ref = "spring-statemachine" }
+#spring-statemachine-starter = { module = "org.springframework.statemachine:spring-statemachine-starter", version.ref = "spring-statemachine" }
 
 jackson-databind = { module = "tools.jackson.core:jackson-databind" }
 jackson-module-kotlin = { module = "tools.jackson.module:jackson-module-kotlin" }
